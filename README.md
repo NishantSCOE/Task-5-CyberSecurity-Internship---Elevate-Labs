@@ -7,7 +7,7 @@ The primary goal was to capture live network packets and identify basic protocol
 
 ### **Files in this Repository**
 * `Task_5_Traffic_Capture.pcapng`: The raw packet capture file generated during the task. It can be opened and analyzed using Wireshark.
-* `report.md`: A detailed report summarizing the methodology, analysis, and findings from the packet capture.
+* `Report.md`: A detailed report summarizing the methodology, analysis, and findings from the packet capture.
 * `/screenshots`: A directory containing screenshots of the Wireshark analysis and the file transfer process.
 
 ### **Process Overview**
