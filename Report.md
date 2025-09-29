@@ -33,7 +33,7 @@ The captured packets were analyzed by applying display filters in Wireshark to i
 #### **A. DNS (Domain Name System)**
 DNS traffic was clearly visible, responsible for translating human-readable domain names into IP addresses.
 * **Observations:** The capture shows the local machine (`192.168.43.85`) sending "Standard query" packets to the local DNS server (`192.168.43.115`).
-* **Example:** Queries were made for domains like `play.google.com`, `httpforever.com`, and `cdnjs.cloudflare.com`. The server responded with the corresponding IP addresses.
+* **Example:** Queries were made for domains like `httpforever.com`, and `http://neverssl.com/`. The server responded with the corresponding IP addresses.
 
 #### **B. TCP (Transmission Control Protocol)**
 TCP is a connection-oriented protocol that ensures reliable data delivery.
@@ -51,4 +51,5 @@ ICMP is used by network devices to send error messages and operational informati
 * **Meaning:** This indicates that a device (likely the local router at `192.168.43.115`) sent a message back to our machine (`192.168.43.85`) to inform it that it tried to connect to a service on a port that was closed.
 
 ### **Conclusion**
+
 This task provided valuable hands-on experience with Wireshark. I successfully captured and analyzed live network traffic, identifying and understanding the roles of fundamental protocols like DNS, TCP, HTTP, and ICMP. The process also reinforced practical skills in transferring files between a VM and a host machine.
